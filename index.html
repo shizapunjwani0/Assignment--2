@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1px solid black">
+        <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th><br>
+            <th>Header column 4</th>
+        </tr>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row 2 - Item 2</td>
+            <th>Row 2: Nested Table 1 <br>
+                <table  border="1px solid black">
+                    <th>Row 1 Header</th><br>
+                    <td>item</td>
+                    <tr>
+                    <th>Row 2 Header</th>
+                    <td>item</td>
+                 </tr>
+                 <tr>
+                    <th> Row 3 Header</th>
+                    <td>item</td>
+                 </tr>
+                 </table>
+            </th>
+            <td>Row 2 - Item 4 <br> A second line</td>
+        </tr>
+        <tr>
+            <th>Row 3 - Nested Table 2
+                <table border="1px solid black">
+                   <th>Row 1 Header</th><br>
+                   <td>item</td>
+                   <tr>
+                   <th>Row 2 Header</th>
+                   <td>item</td>
+                </tr>
+                </table>
+            </th>
+            <td>Row 3 - Item 2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Row 4 - Item 1</td>
+            <td>Row 4 - Item 2</td>
+            <td>Row 4 - Item 3</td>
+        </tr>
+        <tr>
+            <td colspan="4">Row 5 -Last row of outer table</td>
+        </tr>
+    </table><br><br><hr><hr><br><br>
+
+    <table border="1px solid black">
+       <tr>
+        <th>Area</th>
+        <th>10am - 11am</th>
+        <th>11am -12am</th>
+        <th>12pm - 1pm</th>
+        <th>1pm - 2pm</th>
+        <th>2pm - 3pm</th>
+       </tr>
+       <tr>
+        <th rowspan="2">Track</th>
+        <td>400m</td>
+        <td>200m</td>
+        <td rowspan="3">Lunch</td>
+        <td>800m</td>
+        <td>100m</td>
+       </tr>
+       <tr>
+        <td>Hurdles</td>
+        <td>1500m</td>
+        <td>Free</td>
+        <td>80m</td>
+       </tr>
+       <tr>
+        <th>Field</th>
+        <td>Discuss</td>
+        <td>Javelin</td>
+        <td>Shot put</td>
+        <td>Hammer throw</td>
+       </tr>
+    </table>
+</body>
+</html>
